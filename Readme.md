@@ -1,34 +1,34 @@
-#SQL Task 
+# SQL Task 
 
 	
-##Task:
+## Task:
 
 - Create a database and tables to manage a simple e-commerce system. 
 - The system should have three tables: customers, orders, and products.
 
-##Requirements:
+## Requirements:
 
 - Create a database named ecommerce.
 - Create three tables: customers, orders, and products.
 - Insert some sample data into the tables.
 
-##Table Structure:
+## Table Structure:
 
-###customers:
+### customers:
 
 - id (primary key, auto-increment): unique identifier for each customer
 - name: customer's name
 - email: customer's email address
 - address: customer's address
 
-###orders:
+### orders:
 
 - id (primary key, auto-increment): unique identifier for each order
 - customer_id (foreign key referencing customers.id): a customer who placed the                               order
 - order_date: date the order was placed
 - total_amount: total amount of the order
 
-###products:
+### products:
 
 - id (primary key, auto-increment): unique identifier for each product
 - name: product's name
@@ -36,7 +36,7 @@
 - description: product's description
 
 
-##Queries to Write:
+## Queries to Write:
 
 - Retrieve all customers who have placed an order in the last 30 days.
 - Get the total amount of all orders placed by each customer.
