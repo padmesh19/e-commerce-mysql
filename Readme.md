@@ -28,7 +28,7 @@
 ### orders:
 
 - id (primary key, auto-increment): unique identifier for each order
-- customer_id (foreign key referencing customers.id): a customer who placed the                               order
+- customer_id (foreign key referencing customers.id): a customer who placed the order
 - order_date: date the order was placed
 - total_amount: total amount of the order
 
@@ -52,5 +52,4 @@
 - Retrieve the orders with a total amount greater than 150.00.
 - Normalize the database by creating a separate table for order items and updating the orders table to reference the order_items table.
 - Retrieve the average total of all orders.
-
 
